@@ -1,0 +1,79 @@
+*{
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+/* position: relative; note to fix */
+.container1 {
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    position: relative;
+    text-align: center;
+border-radius: 16px;
+}
+
+.centre {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+ .ht{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 0px;
+}
+
+.hb{
+    margin-top: 0px;
+    color: #FFF;
+    text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+} 
+
+.bh1{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+}
+
+.bp1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;  
+}
+
+.bp2{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.im1{
+    margin-top: 48px;
+    margin-left: 399px;
+    margin-right: 398.1px;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+
+  
