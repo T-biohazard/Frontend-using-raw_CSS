@@ -10,43 +10,46 @@ font-family: 'Open Sans', sans-serif;
     margin-bottom: 120px;
     text-align: center;
 border-radius: 16px;
-
+padding: auto;
 /* update */
 /* width: 1320px; */
 height: 600px;
 position: relative;
-border-image-width: 1320px;
+/* border-image-width: 1320px; */
 }
 
 .centre {
+    padding-top: 400px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+
+    /* transform: translate(-50%, -50%);  */
 }
 
  .ht{
-    text-align: center;
+    margin-top:727px;
+    /* text-align: center; */
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    line-height: normal; 
     margin-bottom: 0px;
+    /* margin-bottom: 0px; */
+    /* padding-top: 505px; */
 }
 
 .hb{
+    padding-bottom: 905px;
     margin-top: 0px;
     color: #FFF;
-    text-align: center;
+    /* text-align: center; */
 font-family: Merriweather;
 font-size: 72px;
 font-weight: 900;
 line-height: 95px;
-margin-bottom: 120px;
+/* margin-bottom: 0px; */
 } 
 
 .bh1{
@@ -338,16 +341,48 @@ line-height: 32px;
 }
 
 /* multiimage */
-.lowerpart1{
-    /* display: flex; */
-   
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-bottom: 120px;
-    /* position: relative;
-    text-align: center; */
-border-radius: 16px;
+
+.lowerpart{
+    margin-top: 520px;
+
+}
+.holiday-img{
+    background-image: url("resources/Rectangle 2.png");
+    width: 1640px;
+height: 229px;
+display: center;
+margin-left: 120px;
+margin-right: 120px;
+background-size: 100%;
+border-image-width: 100%;
+border-radius: 16px 0px 16px 16px;
+background: #F00;
+
+}
+
+.girl-pic{
+    float: right;
+    margin-top: -662px;
+    margin-right: 69px;
+    padding-right: 60px;
+}
+.gift-box-pic{
+    float: left;
+
+    margin-top:-662px ;
+    width: 4.372px;
+height: 70.789px;
+flex-shrink: 0;
+position: relative;
+}
+.discount-pic{
+    float: right;
+    position: relative;
+    margin-right: 406px;
+    margin-top: -662px;
+}
+.holiday-sale-offer-and-img{
+    margin-bottom: 70px;
 
 }
 
