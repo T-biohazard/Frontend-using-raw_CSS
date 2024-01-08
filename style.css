@@ -8,9 +8,15 @@ font-family: 'Open Sans', sans-serif;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 120px;
-    position: relative;
+
     text-align: center;
 border-radius: 16px;
+
+/* update */
+/* width: 1320px; */
+height: 600px;
+position: relative;
+border-image-width: 1320px;
 }
 
 .centre {
@@ -84,26 +90,51 @@ font-weight: 700;
 
 .container2{
     background-image: url("resources/Vectorrr.png");
-    margin-top: 50px;
-    margin-left: 140px;
+    
+    background-repeat: no-repeat;
+    text-align: right;
+    
+    margin-top: 126px;
+    margin-left: 130px;
     margin-right: 140px;
     margin-bottom: 120px;
     position: relative;
-    text-align: right;
+   
 border-radius: 16px;
-background-repeat: no-repeat;
+
+width: 1320px;
+height: 600px;
+flex-shrink: 0;
+max-width: 1337px;
+
+
+/* update */
+/* width: 1320px; */
+height: 600px;
+position: relative;
+/* border-image-width: 1320px; */
+}
+
+.img2{
+    margin-top: 70px;
+    margin-right: 140px;
+    margin-bottom: 67px;
 }
 
 
 .centre2{   
-    top: 120%;
+    margin-top:  120%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;
-    position: absolute; 
+    position:absolute; 
     top: 50%;
     left: 50%;
     text-align: left;
+    margin-left: -120px;
+    margin-top: -120px;
+    padding-top: 120px;
+    
   
 }
 
@@ -129,7 +160,7 @@ line-height: 30px; /* 166.667% */
 }
 
 .btn{
-    top: 48px;
+    margin-top: 30px;
    color: #FFF;
 font-family: Inter;
 font-size: 20px;
@@ -145,32 +176,51 @@ position:bottom left;
 }
 
 
+.body2{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+    position: relative;
+    text-align: center;
+
+    text-align: center;
+border-radius: 16px;
+
+/* update */
+width: 1320px;
+height: 600px;
+position: relative;
+border-image-width: 1320px;
+}
+
+
 /* ----------Welcome to
 midnight party---------- */
 
 
 
 .body3{
-    background-color: #F00;
+    /* background-color: #F00; */
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 120px;
-
-/* height: 482px; */
+    /* position: relative; */
+    text-align: center;
+    width: 1320px;
+height: 482px;
 padding: 100px;
     /* justify-content: space-around; */
-    text-align: center;
-
    
-     background:rgba(238, 90, 90, 0.365);
+   
+box-shadow: rgba(243, 28, 28, 0.477) 0px 30px 60px 0px inset, rgba(0, 0, 0, 0) 0px 18px 36px 0px inset;
 text-align: center;
 font-family: Inter;
 font-size: 32px;
-font-style: normal;
 font-weight: 600;
 line-height: 56px; /* 175% */
-text-transform: capitalize;
+
 }
 
 .btn2{
@@ -203,6 +253,7 @@ text-transform: capitalize;
     text-align: center; */
 border-radius: 16px;
 display: flex;
+gap:120px;
 }
 
 .c4{
@@ -217,6 +268,7 @@ display: flex;
 
 .x3{
     text-align: right;
+
 }
 
 
