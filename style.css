@@ -8,7 +8,6 @@ font-family: 'Open Sans', sans-serif;
     margin-left: 140px;
     margin-right: 140px;
     margin-bottom: 120px;
-
     text-align: center;
 border-radius: 16px;
 
@@ -47,6 +46,7 @@ font-family: Merriweather;
 font-size: 72px;
 font-weight: 900;
 line-height: 95px;
+margin-bottom: 120px;
 } 
 
 .bh1{
@@ -81,7 +81,10 @@ font-weight: 700;
     position: relative;
 }
 .body1{
+    padding-top: 120px;
     text-align: center;
+    margin-top: 120px;
+    margin-bottom: 0px;
 
 }
 
@@ -90,29 +93,18 @@ font-weight: 700;
 
 .container2{
     background-image: url("resources/Vectorrr.png");
-    
+    height: ;
     background-repeat: no-repeat;
     text-align: right;
-    
-    margin-top: 126px;
-    margin-left: 130px;
-    margin-right: 140px;
-    margin-bottom: 120px;
-    position: relative;
-   
+    /* margin-top: 126px; */
+    margin-left: 10px;
+    margin-right: -200px;
+    /* margin-bottom: 120px; */
+    background-size: 100%;
+   background-position: center;
 border-radius: 16px;
 
-width: 1320px;
-height: 600px;
-flex-shrink: 0;
-max-width: 1337px;
 
-
-/* update */
-/* width: 1320px; */
-height: 600px;
-position: relative;
-/* border-image-width: 1320px; */
 }
 
 .img2{
@@ -213,7 +205,7 @@ height: 482px;
 padding: 100px;
     /* justify-content: space-around; */
    
-   
+    /* box-shadow: rgba(222, 10, 10, 0.943) 0px 2px 4px 0px inset; */
 box-shadow: rgba(243, 28, 28, 0.477) 0px 30px 60px 0px inset, rgba(0, 0, 0, 0) 0px 18px 36px 0px inset;
 text-align: center;
 font-family: Inter;
@@ -263,14 +255,45 @@ gap:120px;
 
 .centrediv{
     text-align: center;
-    background-image: url("resources/");
+    /* background-image: url("resources/"); */
+   padding-left: 7.5%;
 }
 
 .x3{
-    text-align: right;
-
+    text-align: left;
+padding-left: 15%;
 }
 
+.tt1{
+    color: #F00;
+/* text-align: center; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0px;
+}
+
+.tt2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.tt3{
+    margin-bottom: 0px;
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 /* -------------womenBag-------- */
 
