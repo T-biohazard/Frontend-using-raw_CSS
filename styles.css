@@ -390,13 +390,14 @@ line-height: 26px;
 margin-bottom: 50px;
 }
 
+
 .grid img{
-    margin-right: 24px;
-    width: 100%;
-    gap:24px;
-    justify-content: space-between;
-    
+    gap: 24px;
+    margin-right:24px ;
 }
+
+
+ 
 
 .grid .first-row, .second-row, .third-row{
     display: flex;
@@ -806,10 +807,19 @@ hr {
         flex-direction: column;
     }
 
+
+    /* grid  */
     .first-row,.third-row,.second-row{
         flex-direction: column;
     }
+    .grid img{
+        width: 100%;
+        
+        gap: 4px;
+        /* margin-bottom:4px ; */
+    }
 
+    
 
 
     /* choose us */
