@@ -3,7 +3,7 @@
 }
 
 /* nav contant */
-button{
+button ,.ipt3{
     cursor: pointer;
 }
 
@@ -357,7 +357,10 @@ height: 300px;
     
 }
 
-destination  */
+*/
+
+
+/* destination   */
 .sizee{
 margin-left: 100px ;
 margin-right:100px ;
@@ -420,6 +423,9 @@ position: relative;
 
 
 /* choose us  */
+
+
+
 .choose-us {
     display: flex;
     flex-direction: column;
@@ -429,19 +435,22 @@ position: relative;
 }
 
 .choose-us img {
-    height: 64px;
-    width: 64px;
+    height: 66px;
+    width: 66px;
 }
 
 .choose-midle {
     display: flex;
     gap: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* width: 100%; */
+
 }
+
 
 .choose-us p {
     color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
+    font-family: 'Mulish';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -449,18 +458,20 @@ position: relative;
     /* 162.5% */
 }
 
-.choose-us .div1{
+.choose-us .div1 {
     text-align: center;
     padding: 20px;
     max-width: 573px;
 }
-.choose-us .div4, .div2{
+
+.choose-us .div4,
+.div2 {
     max-width: 573px;
     border-radius: 16px;
     padding: 30px;
-border: 1px solid rgba(251, 181, 99, 0.20);
+    border: 1px solid rgba(251, 181, 99, 0.20);
 
-background-color: rgba(251, 181, 99, 0.05);
+    background-color: rgba(251, 181, 99, 0.05);
 }
 
 .choose-us .div3 {
@@ -493,7 +504,6 @@ background-color: rgba(251, 181, 99, 0.05);
 
 
 
-/* --- */
 
 /* place section  */
 
@@ -585,12 +595,12 @@ background-color: rgba(251, 181, 99, 0.05);
     
 }
 
-.Newsletter-div {
+.Ndiv {
     display: flex;
     justify-content: space-between;
 }
 
-.Newsletter-content {
+.Ncontent {
     border-radius: 16px;
     border: 1px solid #FF5400;
     display: flex;
@@ -598,7 +608,7 @@ background-color: rgba(251, 181, 99, 0.05);
     padding: 25px;
 }
 
-.Newsletter-content h3 {
+.Ncontent h3 {
     color: #131318;
     font-family: 'Mulish';
     font-size: 24px;
@@ -607,7 +617,7 @@ background-color: rgba(251, 181, 99, 0.05);
     line-height: normal;
 }
 
-.Newsletter-content p {
+.Ncontent p {
     color: #5A5A5D;
     font-family: 'Mulish';
     font-size: 16px;
@@ -616,8 +626,7 @@ background-color: rgba(251, 181, 99, 0.05);
     line-height: 26px;
 }
 
-.Newsletter-content .ipt1,
-.ipt2 {
+ .ipt1,.ipt2 {
     border-radius: 8px;
     font-family: 'Mulish';
     background: rgba(19, 19, 24, 0.05);
@@ -626,7 +635,7 @@ background-color: rgba(251, 181, 99, 0.05);
     margin-top: 10px;
 }
 
-.Newsletter-content .ipt3 {
+.Ncontent .ipt3 {
     border-radius: 8px;
     color: #FFF;
     font-family: 'Mulish';
@@ -640,15 +649,13 @@ background-color: rgba(251, 181, 99, 0.05);
 }
 
 
-.Newsletter-img img {
-    width: 100%;
-}
+
 
 .Newsletter-img {
     position: relative;
 }
 
-.position-card {
+.position {
     background-color: #FF5400;
     border-radius: 16px;
     width: 324px;
@@ -662,7 +669,7 @@ background-color: rgba(251, 181, 99, 0.05);
 
 
 
-.position-card p {
+.position p {
     color: #FFF;
     text-align: center;
     font-family: 'Mulish';
@@ -773,8 +780,8 @@ hr {
     .input-field-container{
         flex-direction: column;
     }
-    .navigation {
-        display: none;
+    .item-container {
+        flex-direction: column;
     }
 
     .et1 {
@@ -803,6 +810,30 @@ hr {
         flex-direction: column;
     }
 
+
+
+    /* choose us */
+
+    .input-field-container,
+    .place-div,
+    .choose-midle,
+    .Packages-div {
+        flex-direction: column;
+    }
+
+    .choose-midle {
+        width: 100%;
+    }
+
+    .placebdy4{
+        flex-direction: column;
+    }
+
+
+    /* newsettler */
+    .Ndiv{
+flex-direction: column;
+    }
 }
 
 
