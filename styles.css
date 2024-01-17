@@ -7,6 +7,9 @@ button ,.ipt3{
     cursor: pointer;
 }
 
+.bgi1{width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;}
 
 .headersec{
     /* border: 2px solid #FF5400; */
@@ -59,8 +62,8 @@ line-height: normal;
 justify-content: space-between;
 align-items: center;
 
-margin-left: 36px;
-padding-left: 59px;
+margin-left: 60px;
+padding-left: 90px;
 }
 .pad1{
     margin-left: 16px;
@@ -259,6 +262,7 @@ border: none;
 margin-left: 50px;
 margin-left:135px ;
 margin-right:135px ;
+margin-bottom: 100px;
 }
 .bl1 img{
     max-width: 100%;
@@ -373,7 +377,7 @@ height: 300px;
 .sizee{
 margin-left: 100px ;
 margin-right:100px ;
-
+margin-bottom: 100px;
 }
 
 
@@ -523,7 +527,9 @@ position: relative;
     line-height: normal;
 }
 
-
+.choosy{
+    margin-bottom: 100px;
+}
 
 
 
@@ -534,6 +540,7 @@ position: relative;
     display: flex;
     margin-left:135px ;
     margin-right:135px ;
+    margin-bottom: 100px;
 }
 
 .placebdy4{
@@ -614,7 +621,7 @@ position: relative;
     /* display: flex; */
     margin-left:135px ;
     margin-right:135px ;
-    
+    margin-bottom: 100px;
 }
 
 .Ndiv {
@@ -722,7 +729,7 @@ position: relative;
     position: relative;
   text-align: center;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 
 }
 
