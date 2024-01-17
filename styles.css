@@ -935,7 +935,49 @@ margin-right: 90px;
     .Ndiv{
 flex-direction: column;
     }
-    
+
+
+/* perfect place */
+.Pcontent{
+    width: 100%;
+    justify-content: center;
+}
+.Pcontent h3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px; /* 150% */
+}
+.place-img img{
+    width: 100%;
+}
+   
+/* news teller */
+.Ncontent{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Newsletter-img img{
+    /* width: 120%; */
+    width: 115%;
+height: 300px;
+flex-shrink: 0;
+}
+.position{
+    /* width: 50%; */
+    width: 214.023px;
+height: 90.268px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+}
+
+
+
+
+
 }
 
 
